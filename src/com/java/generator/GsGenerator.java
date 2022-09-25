@@ -30,11 +30,7 @@ public class GsGenerator {
 			dbUrl = "jdbc:" + dbType + "://" + dbHost + ":" + dbPort + "/" + dbNm;
 		}
 		System.out.println(dbType);
-//		dbUser = "uvms_gw_dev";
-//		dbPswd = "p@ssw0rd!Q@W";
-//		dbDriverClass = "org.mariadb.jdbc.Driver";
-//		dbUrl = "jdbc:mariadb://192.168.0.100:3306/uvms2_dev";
-
+		
 		List<GsDto> gsDtoList = new ArrayList<>();
 
 		try {
